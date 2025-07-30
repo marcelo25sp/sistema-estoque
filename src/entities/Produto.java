@@ -22,5 +22,11 @@ public class Produto {
 	public void adicionarEstoque(int quantidade) {
 		this.quantidade += quantidade;
 	}
+	
+	public void removerEstoque(int quantidade) {
+		if(quantidade <= this.quantidade) {
+			this.quantidade -= quantidade;
+		}		
+	}
 
 }

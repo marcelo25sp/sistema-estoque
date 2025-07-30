@@ -28,5 +28,13 @@ public class Produto {
 			this.quantidade -= quantidade;
 		}		
 	}
+	
+	public String toString() {
+		return "Dados do produto:\n"
+			 + "Código: " + codigo+ "\n"
+			 + "Nome: " + nome + "\n"
+			 + "Quantidade: " + quantidade + "\n"
+			 + "Preço: " + String.format("R$ %.2f", preco);
+	}
 
 }

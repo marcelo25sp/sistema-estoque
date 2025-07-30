@@ -34,6 +34,23 @@ public class ProgramProduto {
 		}else {
 			produtoA = new Produto(codigo, nome);
 		}
+		
+		System.out.println();
+		System.out.println(produtoA);
+		
+		System.out.println();
+		System.out.print("Entre com a quantidade a ser adicionada? ");
+		int quantidade = sc.nextInt();
+		produtoA.adicionarEstoque(quantidade);
+		System.out.println("---------------------------------------");
+		System.out.println(produtoA);
+		
+		System.out.println();
+		System.out.print("Entre com a quantidade a ser removida: ");
+		quantidade = sc.nextInt();
+		produtoA.removerEstoque(quantidade);
+		System.out.println("---------------------------------------");
+		System.out.println(produtoA);
 
 		sc.close();
 

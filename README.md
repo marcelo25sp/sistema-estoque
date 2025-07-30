@@ -1,36 +1,55 @@
-📦 Projeto: Cadastro de Produto (Java)
+# 📦 Projeto: Cadastro de Produto (Java)
 
+Este projeto simula o **cadastro de um produto** e a manipulação do seu **estoque**, utilizando a linguagem **Java**. O foco está na prática dos principais conceitos de Programação Orientada a Objetos (POO).
 
-O projeto simula o cadastro de um produto e a manipulação do seu estoque utilizando a linguagem Java. O foco está em praticar os seguintes conceitos:
+---
 
+## 🧠 Conceitos Trabalhados
 
-Criação de classes e objetos (Produto)
+- ✅ Criação de classes e objetos (`Produto`)
+- ✅ Construtores com e sem parâmetros
+- ✅ Sobrecarga de construtores
+- ✅ Entrada de dados com `Scanner`
+- ✅ Encapsulamento
+- ✅ Atualização de estoque (adicionar e remover)
+- ✅ Boas práticas de POO
 
-Construtores com e sem parâmetros
+---
 
-Sobrecarga de construtores
+## 🧾 Estrutura do Projeto
 
-Entrada de dados com Scanner
+### 📁 Classe `Produto`
+Contém os seguintes atributos:
+- `codigo` (int)
+- `nome` (String)
+- `quantidade` (int)
+- `preco` (double)
 
-Encapsulamento
+Inclui:
+- Construtores (com e sem parâmetros)
+- Métodos `adicionarEstoque(int)` e `removerEstoque(int)`
+- Método `toString()` para exibir os dados do produto formatados
 
-Atualização de estoque (adicionar e remover)
+### 💻 Classe `ProgramProduto`
+Responsável por:
+- Capturar os dados do usuário via `Scanner`
+- Criar instâncias de `Produto`
+- Manipular o estoque chamando os métodos da classe `Produto`
+- Exibir o produto atualizado após cada operação
 
-Boas práticas de programação orientada a objetos (POO)
+---
 
+## 🚀 Funcionalidades
 
-🧾 Estrutura do Projeto
-Classe Produto: contém os atributos codigo, nome, quantidade e preco. Implementa construtores, métodos para manipular o estoque e o método toString().
+- 📌 Cadastrar produto com ou sem preço e quantidade inicial
+- ➕ Adicionar itens ao estoque
+- ➖ Remover itens do estoque
+- 📋 Exibir informações atualizadas do produto após cada operação
 
-Classe ProgramProduto: responsável pela entrada de dados do usuário e chamada dos métodos da classe Produto.
+---
 
+## 🛠️ Tecnologias Utilizadas
 
-
-🚀 Funcionalidades
-Cadastrar produto com ou sem preço e quantidade
-
-Adicionar itens ao estoque
-
-Remover itens do estoque
-
-Exibir informações atualizadas do produto após cada operação
+- Linguagem: Java
+- IDE: Eclipse
+- Paradigma: Programação Orientada a Objetos (POO)

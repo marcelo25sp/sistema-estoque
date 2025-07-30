@@ -18,5 +18,9 @@ public class Produto {
 		this.codigo = codigo;
 		this.nome = nome;
 	}
+	
+	public void adicionarEstoque(int quantidade) {
+		this.quantidade += quantidade;
+	}
 
 }
